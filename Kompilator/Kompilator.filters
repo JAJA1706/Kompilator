@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{9fb078fc-856a-4dee-86ec-b543d65d16c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statements">
+      <UniqueIdentifier>{410ddd78-a5a0-442a-96fd-81b34030e02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expressions">
+      <UniqueIdentifier>{371c66ee-3aa6-4e5a-b78b-b58cf1f745c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lekser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\LekserTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\mainTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SourceTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\ParserTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\ProgramTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexExpression.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionComponent.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplyComponent.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambda.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Closure.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentList.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterList.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="RestOfComplexExpression.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionDefinition.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableDefinition.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+    <ClCompile Include="ForStatement.cpp">
+      <Filter>Statements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lekser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="ForStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableDefinition.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnStatement.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionDefinition.h">
+      <Filter>Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexExpression.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionComponent.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplyComponent.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambda.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Closure.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentList.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="RestOfComplexExpression.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterList.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

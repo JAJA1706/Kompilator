@@ -1,0 +1,5 @@
+START
+	int x = 5;
+	int y = lambda[ref x]() return x = x*5; END();
+	print(y);
+STOP
